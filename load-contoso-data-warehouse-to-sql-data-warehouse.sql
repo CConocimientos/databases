@@ -1,26 +1,23 @@
-
--- Use PolyBase to load public data from Azure Blob Storage into the Contoso Retail Data Warehouse schema.
+-- Use PolyBase para cargar datos públicos desde Azure Blob Storage al esquema de Contoso Retail Data Warehouse.
 --
--- This script:
+-- Este script:
 --
--- 1. Configures PolyBase for loading from a public blob storage container.
--- 2. Loads the data into columnstore indexes
--- 3. Performs optimizations after the load is finished.
+-- 1. Configura PolyBase para la carga desde un contenedor de blobs storage público.
+-- 2. Carga los datos en índices de almacén de columnas.
+-- 3. Realiza optimizaciones una vez finalizada la carga.
 --
--- Before you begin:
--- To run this tutorial, you need an Azure account that already has a SQL Data Warehouse database.
--- If you don't already have this, see
+-- Antes de comenzar:
+-- Para ejecutar este tutorial, necesita una cuenta de Azure con una base de datos de SQL Data Warehouse.
+-- Si aún no la tiene, consulte
 -- http://azure.microsoft.com/documentation/articles/sql-data-warehouse-get-started-provision.md
 --
--- For more explanation about the loading process, this article on azure.microsoft.com
--- loads a small set of the Contoso data and explains the process in more detail.
--- http://azure.microsoft.com/documentation/articles/sql-data-warehouse-load-from-azure-blob-storage-with-polybase.md
+-- Para obtener más información sobre el proceso de carga, este artículo en azure.microsoft.com
+-- carga un pequeño conjunto de datos de Contoso y explica el proceso con más detalle. -- http://azure.microsoft.com/documentation/articles/sql-data-warehouse-load-from-azure-blob-storage-with-polybase.md
 
-
--- Create an external data source
--- TYPE: HADOOP - PolyBase uses Hadoop APIs to access data in Azure Blob Storage.
--- LOCATION: Provide Azure storage account name and blob container name.
--- CREDENTIAL: Provide the credential created in the previous step.
+-- Crear un origen de datos externo
+-- TIPO: HADOOP: PolyBase usa las API de Hadoop para acceder a los datos en Azure Blob Storage.
+-- UBICACIÓN: Proporcione el nombre de la cuenta de Azure Storage y el nombre del contenedor de blobs.
+-- CREDENCIAL: Proporcione la credencial creada en el paso anterior.
 
 CREATE EXTERNAL DATA SOURCE AzureStorage_west_public
 WITH
@@ -30,9 +27,9 @@ WITH
 );
 GO
 
--- The data is stored in text files in Azure Blob Storage, and each field is separated with a delimiter.
--- Run this [CREATE EXTERNAL FILE FORMAT][] command to specify the format of the data in the text files.
--- he Contoso data is uncompressed and pipe delimited.
+--Los datos se almacenan en archivos de texto en Azure Blob Storage y cada campo está separado por un delimitador.
+--Ejecute el comando [CREATE EXTERNAL FILE FORMAT][] para especificar el formato de los datos en los archivos de texto.
+--Los datos de Contoso no se comprimen y están delimitados por barras verticales.
 
 CREATE EXTERNAL FILE FORMAT TextFileFormat
 WITH
@@ -45,15 +42,15 @@ WITH
 );
 GO
 
--- To create a place to store the Contoso data in your database, create a schema.
+-- Para crear un lugar donde almacenar los datos de Contoso en su base de datos, cree un esquema.
 
 CREATE SCHEMA [asb];
 GO
 
 
--- Now let's create the external tables. All we are doing here is defining column names and data types,
--- and binding them to the location and format of the Azure Blob Storage files. The location is the folder
--- under the root directory of the Azure Storage Blob.
+--Ahora, creemos las tablas externas.
+--Simplemente definimos los nombres de las columnas y los tipos de datos, y los vinculamos a la ubicación y el formato de los archivos de Azure Blob Storage. 
+--La ubicación es la carpeta del directorio raíz de Azure Storage Blob.
 
 --DimAccount
 CREATE EXTERNAL TABLE [asb].DimAccount
