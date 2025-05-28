@@ -1,0 +1,71 @@
+EmpleadoID	Nombre	Cargo	Telefono	Salario
+1	Jennifer Alexander	Supervisor	905189611	4155
+2	Mark Blankenship	Gerente	915189612	9523
+3	Brittany Casey	Gerente	925189613	7219
+4	Stephanie Burns	Vendedor	935189614	9236
+5	Ashley Ray	Administrador	945189615	1813
+6	Lisa Thomas	Administrador	955189616	8967
+7	Kristi Brooks	Gerente	965189617	12000
+8	Douglas Oliver	Gerente	975189618	8992
+9	Kimberly Potter	Administrador	985189619	3464
+10	William Hunter	Supervisor	995189620	5951
+11	James Gordon	Administrador	995189621	8498
+12	Sydney Whitney	Administrador	995189622	1093
+13	Paul Williams	Administrador	995189623	2400
+14	Christopher Leonard PhD	Administrador	995189624	2231
+15	Troy Avila	Vendedor	995189625	8940
+16	Robert Joseph	Administrador	905189626	2149
+17	Martha Miller	Supervisor	905189627	2511
+18	John Jones	Administrador	905189628	2700
+19	Courtney Hamilton	Supervisor	905189629	9314
+20	Tamara Davis	Vendedor	905189630	8012
+21	Mary Rojas	Supervisor	905189631	4077
+22	Carla Ramos	Gerente	905189632	9714
+23	Robert Cox	Gerente	905189633	9000
+24	Derrick Johnson	Supervisor	905189634	5736
+25	Corey Brown	Supervisor	905189635	1756
+26	Melissa Harrison	Vendedor	905189636	4723
+27	Richard Smith	Vendedor	905189637	4300
+28	Douglas Anderson	Gerente	905189638	11000
+29	Christopher Patel	Gerente	905189639	12000
+30	Cameron Payne	Vendedor	905189640	6005
+31	Chelsea Jennings	Vendedor	905189641	2147
+32	Caitlin Mitchell	Gerente	995189642	8700
+33	Ernest Smith	Supervisor	995189643	1683
+34	Matthew Thompson	Gerente	995189644	8848
+35	Rachel Perez	Administrador	995189645	5968
+36	Dennis Phillips	Gerente	915189646	12000
+37	Meghan Hill	Supervisor	915189647	2363
+38	Maureen Burton	Supervisor	915189648	1413
+39	Ashley Martin	Vendedor	915189649	6774
+40	Christine Ramos	Gerente	915189650	7202
+41	Jessica King	Vendedor	915189651	9912
+42	Adam Lee	Supervisor	915189652	3544
+43	Mark Yoder	Administrador	925189653	2925
+44	Thomas Cuevas	Administrador	925189654	7488
+45	Ivan Murphy	Vendedor	925189655	9621
+46	Cindy Ray	Vendedor	925189656	4882
+47	Erica Thompson	Supervisor	925189656	6658
+48	Annette Cantrell	Administrador	995189657	5009
+49	Courtney Ramirez	Administrador	995189658	3874
+50	Terri Garcia DDS	Administrador	995189659	4587
+51	chilin cruz jean 	Practicante	995189660	1200
+52	tacame samame 	Analista	995189661	4000
+53	arraiza aldea joseph	Ingeniero de datos	995189662	6000
+54	caisahuana ramos 	SubGenerente	995189663	8000
+55	alfaro seved jhefferson	Analista	995189664	3500
+56	arteaga zavalet kevin 	Analista	995189665	4100
+57	estrada alanca lening	Analista	995189666	3800
+58	marabotto flores 	Ingeniero de datos	995189667	5500
+59	perez soria nicolas 	Help Desk	995189668	2500
+60	perez sor nico	Help Desk	915088669	2500
+61	paredes  samuel esteban	Administrador	934987670	null
+62	gutierrez puma  alonso	Help Desk	954886671	null
+63	jara jeferson jesus	Help Desk	674785672	null
+64	quispe  jared Juli	Help Desk	594684673	null
+65	bravo escobal gustavo	Help Desk	514583674	null
+66	castillo villalva wo	Help Desk	434482675	null
+67	carrion zaquinaula Yari	Help Desk	354381676	null
+68	ariza caytuiro  jesus	Vendedor	274280677	null
+69	ruiz morena  marcelino	Vendedor	194179678	null
+70	varillas  yerson	Vendedor	914078679	null

@@ -1,0 +1,23 @@
+ProveedorID	Nombre	Contacto	Telefono
+1	Whitehead Inc	Melissa Townsend	1003086441
+2	Allen-Mueller	Miss Joyce Rivers	6398299242
+3	Sparks, Hanson and Brown	Sean Garcia	1340175479
+4	Guerra, Blair and Howard	Alexander Evans	9676840772
+5	Brown Group	Anna Ruiz	7645015302399
+6	White-Hawkins	Jenna Watts	9816140447
+7	Mejia, Hernandez and Rodriguez	Brandon Perkins	98744361487048
+8	Baker, Lawrence and Mercado	Mark Fischer	642957672617
+9	Burnett-Burns	Calvin Lopez	1782879738515900
+10	Welch-Johnston	Jay Lin	1590904211611030
+11	Dixon Ltd	Miguel Richardson	2157859372
+12	Thompson-Ramsey	Carolyn Mitchell	3941622306
+13	Torres and Sons	Leah Poole	1068959575797320
+14	Johnson-Romero	Eric Wilson DVM	3122303905
+15	Ward Group	Edward Hughes	893050047080992
+16	Lopez, Patel and Ramirez	Shane Patterson	532669454734620
+17	Carlson Ltd	Alexandria White	125336710577729
+18	Heath, Khan and Velazquez	Jeffrey Rodriguez	2416055657
+19	George and Sons	Bradley Mendoza	13812651137273
+20	Lewis y Sons	Peter Miller	8101364541879
+21	Technology	Lewis Watts	51985222021
+22	Top Model 	May Chan	529812982032
